@@ -21,6 +21,7 @@
 		4D2B279119AA78FB00B55A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2B277319AA78FB00B55A1E /* UIKit.framework */; };
 		4D2B279919AA78FB00B55A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D2B279719AA78FB00B55A1E /* InfoPlist.strings */; };
 		4D2B279B19AA78FB00B55A1E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B279A19AA78FB00B55A1E /* Git_TestTests.m */; };
+		4D2B27A619AA7C1400B55A1E /* OJFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B27A519AA7C1400B55A1E /* OJFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4D2B279619AA78FB00B55A1E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4D2B279819AA78FB00B55A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D2B279A19AA78FB00B55A1E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4D2B27A419AA7C1400B55A1E /* OJFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OJFTest.h; sourceTree = "<group>"; };
+		4D2B27A519AA7C1400B55A1E /* OJFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OJFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		4D2B276319AA78FB00B55A1E = {
 			isa = PBXGroup;
 			children = (
+				4D2B27A419AA7C1400B55A1E /* OJFTest.h */,
+				4D2B27A519AA7C1400B55A1E /* OJFTest.m */,
 				4D2B277519AA78FB00B55A1E /* Git Test */,
 				4D2B279419AA78FB00B55A1E /* Git TestTests */,
 				4D2B276E19AA78FB00B55A1E /* Frameworks */,
@@ -252,6 +257,7 @@
 				4D2B278619AA78FB00B55A1E /* OJFViewController.m in Sources */,
 				4D2B278019AA78FB00B55A1E /* OJFAppDelegate.m in Sources */,
 				4D2B277C19AA78FB00B55A1E /* main.m in Sources */,
+				4D2B27A619AA7C1400B55A1E /* OJFTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
